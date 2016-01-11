@@ -20,11 +20,19 @@
     return self;
 }
 
-+ (NSString *) getPageFromUrl:(NSString *)url withParams:(NSString *)params{
++ (NSString *)getPageFromUrl:(NSString *)url withParams:(NSString *)params {
+    NSURL *urlObj = [NSURL URLWithString:url];
+    
+    // implement rest
+    
     return @"";
 }
 
-+ (NSString *) sendUrlPostToUrl:(NSString *)url withParams:(NSString *)params {
++ (NSString *)sendUrlPostToUrl:(NSString *)url withParams:(NSString *)params {
+    NSURL *urlObj = [NSURL URLWithString:url];
+    
+    // implement rest
+    
     return @"";
 }
 
