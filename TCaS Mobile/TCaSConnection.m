@@ -11,6 +11,15 @@
 
 @implementation TCaSConnection
 
+- (id)init{
+    self = [super init];
+    if (self) {
+        // construct object
+        
+    }
+    return self;
+}
+
 + (NSString *) getPageFromUrl:(NSString *)url withParams:(NSString *)params{
     return @"";
 }

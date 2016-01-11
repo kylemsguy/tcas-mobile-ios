@@ -1,5 +1,5 @@
 //
-//  TCaSSession.h
+//  TCaSSessionProtocol.h
 //  TCaS Mobile
 //
 //  Created by Kyle Zhou on 2016-01-11.
