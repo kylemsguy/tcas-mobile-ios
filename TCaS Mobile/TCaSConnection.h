@@ -1,13 +1,15 @@
 //
-//  TCaSSession.m
+//  TCaSConnection.h
 //  TCaS Mobile
 //
 //  Created by Kyle Zhou on 2016-01-11.
 //  Copyright © 2016 Kyle Zhou. All rights reserved.
 //
 
-#import "TCaSSession.h"
+#import <Foundation/Foundation.h>
 
-@implementation TCaSSession
+@interface TCaSConnection : NSObject<TCaSSession>{
+    
+}
 
 @end

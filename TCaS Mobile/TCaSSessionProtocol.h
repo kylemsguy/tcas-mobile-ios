@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TCaSSession : NSObject
+@protocol TCaSSession <NSObject>
 
 + (NSString *)getPageFromUrl: (NSString *) url withParams: (NSString *)params;
 + (NSString *)sendUrlPostToUrl: (NSString *) url withParams: (NSString *)params;
-//(NSString *)sendMultipartPostToUrl: (NSString *) url withParams: (NSArray *) array;
+//+ (NSString *)sendMultipartPostToUrl: (NSString *) url withParams: (NSArray *) array;
 
 @end
