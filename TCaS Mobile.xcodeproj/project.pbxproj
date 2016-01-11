@@ -15,6 +15,7 @@
 		272E7BF31C3B6E3C0055C69D /* TCaS_MobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E7BF21C3B6E3C0055C69D /* TCaS_MobileTests.m */; };
 		272E7BFE1C3B6E3C0055C69D /* TCaS_MobileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E7BFD1C3B6E3C0055C69D /* TCaS_MobileUITests.m */; };
 		272E7C571C3E48530055C69D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E7C561C3E48530055C69D /* LoginViewController.m */; };
+		272E7C5A1C442C3A0055C69D /* TCaSSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E7C591C442C3A0055C69D /* TCaSSession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		272E7BFF1C3B6E3C0055C69D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		272E7C551C3E48530055C69D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		272E7C561C3E48530055C69D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		272E7C581C442C3A0055C69D /* TCaSSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCaSSession.h; sourceTree = "<group>"; };
+		272E7C591C442C3A0055C69D /* TCaSSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCaSSession.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				272E7BE11C3B6E3B0055C69D /* Main.storyboard */,
 				272E7C551C3E48530055C69D /* LoginViewController.h */,
 				272E7C561C3E48530055C69D /* LoginViewController.m */,
+				272E7C581C442C3A0055C69D /* TCaSSession.h */,
+				272E7C591C442C3A0055C69D /* TCaSSession.m */,
 				272E7BE41C3B6E3B0055C69D /* Assets.xcassets */,
 				272E7BE61C3B6E3B0055C69D /* LaunchScreen.storyboard */,
 				272E7BE91C3B6E3B0055C69D /* Info.plist */,
@@ -273,6 +278,7 @@
 				272E7BDA1C3B6E3B0055C69D /* AppDelegate.m in Sources */,
 				272E7BD71C3B6E3B0055C69D /* main.m in Sources */,
 				272E7C571C3E48530055C69D /* LoginViewController.m in Sources */,
+				272E7C5A1C442C3A0055C69D /* TCaSSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
