@@ -1,0 +1,3 @@
+[submodule "TCaS Mobile/tcas-api-cpp"]
+	path = TCaS Mobile/tcas-api-cpp
+	url = git@github.com:kylemsguy/tcas-api-cpp.git
