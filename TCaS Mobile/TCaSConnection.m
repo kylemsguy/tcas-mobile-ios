@@ -8,6 +8,7 @@
 
 #include "TCaSSessionProtocol.h"
 #import "TCaSConnection.h"
+#import "tcas-api-cpp/TCaSRequest.h"
 
 @implementation TCaSConnection
 
@@ -15,24 +16,24 @@
     self = [super init];
     if (self) {
         // construct object
-        
+
     }
     return self;
 }
 
-+ (NSString *)getPageFromUrl:(NSString *)url withParams:(NSString *)params {
++ (NSString *)getPageFromUrl:(NSString *)url withParams:(TCaS_Backend::Request *)params {
     NSURL *urlObj = [NSURL URLWithString:url];
-    
+
     // implement rest
-    
+
     return @"";
 }
 
 + (NSString *)sendUrlPostToUrl:(NSString *)url withParams:(NSString *)params {
     NSURL *urlObj = [NSURL URLWithString:url];
-    
+
     // implement rest
-    
+
     return @"";
 }
 
